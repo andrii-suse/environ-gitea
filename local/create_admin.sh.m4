@@ -1,0 +1,1 @@
+HOME=/usr/share/gitea GITEA_CUSTOM=/usr/share/gitea GITEA_WORK_DIR=__workdir gitea admin -c __workdir/app.ini user create --username "$1" --password "${2:-opensuse}" --email ${3:-$1@example.com} --must-change-password=false --admin
