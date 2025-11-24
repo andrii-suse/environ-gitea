@@ -26,6 +26,6 @@ install:
 		for dd in $$d/* ; do \
 			test -L $$dd || continue ;\
 			l=$$(basename $$dd) ; \
-			( cd "${DESTDIR}"/usr/share/environ.d/dt/$$d; ln -sf ../../$$l/local/ $$l ) ; \
+			( cd "${DESTDIR}"/usr/share/environ.d/gt/$$d; ln -sf ../../$$l/local/ $$l ) ; \
 		done \
 	done
