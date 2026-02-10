@@ -77,6 +77,9 @@ PASSWORD_HASH_ALGO = pbkdf2
 
 [oauth2]
 JWT_SECRET = RLIhKOGfF70gdPr4a6m8ypSk27EqFMHzItVWE9s5L3M
+
+[actions]
+ENABLED=true
 "
 
 ) > __workdir/app.ini
